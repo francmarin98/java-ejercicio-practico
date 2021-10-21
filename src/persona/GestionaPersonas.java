@@ -1,6 +1,31 @@
+package persona;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class GestionaPersonas {
+
+    HashMap<String, ArrayList<String>> trabajadores = new HashMap<>();
+    ArrayList<String> grupoTrabajo = new ArrayList<String>();
+
+    public GestionaPersonas() {}
+
+    public void agregarTrabajador(){
+
+    }
+
+    public void eliminarTrabajador(){
+
+    }
+
+    public void agregarTrabajadorAlGrupoDeTrabajo(){
+
+    }
+
+    public void eliminarTrabajadorAlGrupoDeTrabajo(){
+
+    }
 
     public void menuOpciones() {
         Scanner in = new Scanner(System.in);
